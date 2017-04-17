@@ -1,0 +1,172 @@
+.countries{
+    >div{
+        padding-top: 20px;
+        -webkit-columns: 8 100px;
+           -moz-columns: 8 100px;
+                columns: 8 100px;
+        column-gap: 20px;
+    }
+    
+
+    img{
+       padding-right: 1px; 
+    }
+
+    a{
+        vertical-align: middle;
+    }
+
+    .item{
+        margin-bottom: 5px;
+    }
+
+    &--extra{
+        display: none;
+        padding-top: 0;
+    }
+    
+}
+
+.links_under_countries{
+    padding-top: 20px;
+    
+    span{
+        display: inline-block;
+        @media (max-width: 450px) {
+            margin-bottom: 10px;
+        }
+    }
+
+    a{
+        margin-right: 15px;
+        vertical-align: middle;
+        &:hover, &:active, &:focus{
+            color: #ccc;
+            border-color: #ccc;
+        }
+    }
+
+    .item1{
+        a{
+            color: #ff5462;
+            border-color: #ff5462;  
+        }
+        
+    }
+
+    .item2{
+        a{
+            color: #d627d6;
+            border-color: #d627d6; 
+        }
+            
+    }
+
+    .item3{
+        a{
+            color: #2754c4;
+            border-color: #2754c4;
+        }
+    }
+
+    .item4{
+        a{
+            color: #1db828;
+            border-color: #1db828;
+        }
+    }
+
+    .item5{
+        a{
+            color: #c240c2;
+            border-color: #c240c2;
+        }
+    }
+
+}
+
+.check_all_countries{
+    text-align: right;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    line-height: 0;
+    font-size: 0;
+    @media (max-width: 1199px) {
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    span{
+        display: inline-block;
+        margin-right: 10px;
+        span{
+            border-bottom: 1px #b2d4ea dotted;
+            font-size: 14px;
+            display: inline-block;
+            line-height: 1.8em;
+            color: #0072BB;
+            cursor: pointer;
+        }
+    }
+    &::after{
+        content: "";
+        display: inline-block;
+        background: url(/image/arrowdown.png);
+        width: 21px;
+        height: 10px;
+        vertical-align: middle;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -4px;
+        @media (max-width: 1199px) {
+            margin-top: 2px;
+        }
+    }
+}
+
+.links-under-countries-and-choose-tour-wrapper{
+    display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+    @media (max-width: 500px) {
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-align-items: stretch;
+                align-items: stretch;
+    }
+    .links_under_countries{
+        padding-top: 0;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        display: inline-block;
+        @media (max-width: 1199px) {
+            -webkit-columns: 3;
+               -moz-columns: 3;
+                    columns: 3;
+        }
+        @media (max-width: 767px) {
+            -webkit-columns: 1;
+               -moz-columns: 1;
+                    columns: 1;
+            margin: 0;
+            margin-bottom: 30px;
+            margin-right: 20px;
+        }
+        @media (max-width: 500px) {
+            -webkit-columns: 2;
+               -moz-columns: 2;
+                    columns: 2;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+
+
+        span{
+            display: block;
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+    }
+}

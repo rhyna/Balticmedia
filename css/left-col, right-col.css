@@ -1,0 +1,295 @@
+.container_wrapper {
+  border-bottom: 2px solid #79bacb;
+  border-image: linear-gradient(to right, #66d1eb 0%, #75bfd2 51%, #85abb6 100%);
+  border-image-slice: 1;
+}
+.flex_wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+@media (max-width: 1199px) {
+  .flex_wrapper {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media (max-width: 465px) {
+  .flex_wrapper {
+    -webkit-align-items: stretch;
+    align-items: stretch;
+  }
+}
+.flex_wrapper .left-col,
+.flex_wrapper .right-col {
+  font-size: 0;
+}
+@media (max-width: 1199px) {
+  .flex_wrapper .left-col {
+    margin-bottom: 30px;
+  }
+}
+.flex_wrapper .subscribe_wrapper,
+.flex_wrapper .orders,
+.flex_wrapper .phones {
+  font-family: "Rex";
+  font-weight: 700;
+  font-size: 15px;
+  color: #0072BB;
+}
+.flex_wrapper .subscribe_wrapper {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 700px) {
+  .flex_wrapper .subscribe_wrapper {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+@media (min-width: 701px) {
+  .flex_wrapper .subscribe_wrapper {
+    max-width: 228px;
+  }
+}
+.flex_wrapper .subscribe_wrapper .subscribe {
+  text-align: center;
+  display: flex;
+  border: 1px solid #0072BB;
+  padding: 10px 15px;
+}
+@media (max-width: 700px) {
+  .flex_wrapper .subscribe_wrapper .subscribe {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+.flex_wrapper .subscribe_wrapper .subscribe span {
+  display: block;
+}
+.flex_wrapper .subscribe_wrapper .subscribe img {
+  padding-right: 15px;
+}
+.flex_wrapper .subscribe_wrapper .subscribe .img {
+  padding-top: 11px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.flex_wrapper .subscribe_wrapper .subscribe .text {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+.flex_wrapper .subscribe_wrapper .subscribe .text:hover {
+  color: #23235C;
+  cursor: pointer;
+}
+.flex_wrapper .subscribe_wrapper .subscribe .text span:first-child {
+  padding-bottom: 2px;
+}
+.flex_wrapper .orders {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 465px) {
+  .flex_wrapper .orders {
+    display: block;
+  }
+}
+.flex_wrapper .orders .order_tour,
+.flex_wrapper .orders .order_aviaticket,
+.flex_wrapper .orders .order_call_back {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+@media (max-width: 700px) {
+  .flex_wrapper .orders .order_tour,
+  .flex_wrapper .orders .order_aviaticket,
+  .flex_wrapper .orders .order_call_back {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 465px) {
+  .flex_wrapper .orders .order_tour,
+  .flex_wrapper .orders .order_aviaticket,
+  .flex_wrapper .orders .order_call_back {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .flex_wrapper .orders .order_tour:last-child,
+  .flex_wrapper .orders .order_aviaticket:last-child,
+  .flex_wrapper .orders .order_call_back:last-child {
+    margin-bottom: 0;
+  }
+}
+.flex_wrapper .orders .order_tour:hover,
+.flex_wrapper .orders .order_aviaticket:hover,
+.flex_wrapper .orders .order_call_back:hover {
+  border-color: #23235C;
+  color: #23235C;
+  cursor: pointer;
+}
+@media (max-width: 1199px) {
+  .flex_wrapper .orders .order_tour {
+    color: #fff;
+    border-color: #00AE9A;
+    background: rgba(0, 174, 154, 0.6);
+    text-shadow: 0 0 10px #009583, 1px 1px 0 #00AE9A, -1px -1px 0 rgba(0, 174, 154, 0.7);
+  }
+  .flex_wrapper .orders .order_tour:hover,
+  .flex_wrapper .orders .order_tour:active {
+    background: #00AE9A;
+    border-color: #006256;
+  }
+}
+@media (max-width: 1199px) {
+  .flex_wrapper .orders .order_aviaticket {
+    color: #fff;
+    border-color: #A062C3;
+    background: rgba(160, 98, 195, 0.6);
+    text-shadow: 0 0 10px #9550bc, 1px 1px 0 #A062C3, -1px -1px 0 rgba(160, 98, 195, 0.7);
+  }
+  .flex_wrapper .orders .order_aviaticket:hover,
+  .flex_wrapper .orders .order_aviaticket:active {
+    background: #A062C3;
+    border-color: #7a3c9d;
+  }
+}
+@media (max-width: 1199px) {
+  .flex_wrapper .orders .order_call_back {
+    color: #fff;
+    border-color: #8BC4CF;
+    background: rgba(139, 196, 207, 0.6);
+    text-shadow: 0 0 10px #79bbc8, 1px 1px 0 #8BC4CF, -1px -1px 0 rgba(139, 196, 207, 0.7);
+  }
+  .flex_wrapper .orders .order_call_back:hover,
+  .flex_wrapper .orders .order_call_back:active {
+    background: #8BC4CF;
+    border-color: #55a8b9;
+  }
+}
+@media (max-width: 700px) {
+  .flex_wrapper .orders .order_call_back {
+    margin-right: 0;
+  }
+}
+.flex_wrapper .phones {
+  font-family: "PT Sans";
+  font-weight: normal;
+  color: #333;
+  padding-left: 80px;
+}
+@media (max-width: 1199px) {
+  .flex_wrapper .phones {
+    padding-left: 0;
+  }
+}
+.flex_wrapper .phones .first_col_minsk,
+.flex_wrapper .phones .second_col_minsk {
+  display: inline-block;
+  font-size: 15px;
+}
+.flex_wrapper .phones .first_col_minsk {
+  max-width: 96.77px;
+  margin-right: 15px;
+}
+@media (max-width: 450px) {
+  .flex_wrapper .phones .first_col_minsk {
+    display: block;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .flex_wrapper .phones .first_col_minsk {
+    max-width: 100%;
+  }
+}
+.flex_wrapper .phones .second_col_minsk {
+  max-width: 256.11px;
+  vertical-align: top;
+  margin-left: 26px;
+  font-size: 14px;
+}
+@media (max-width: 450px) {
+  .flex_wrapper .phones .second_col_minsk {
+    display: block;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .flex_wrapper .phones .second_col_minsk {
+    max-width: 100%;
+  }
+}
+.flex_wrapper .phones .buttons {
+  margin-bottom: 10px;
+  font-size: 0;
+  line-height: 0;
+}
+@media (max-width: 1199px) {
+  .flex_wrapper .phones .buttons {
+    text-align: center;
+  }
+}
+.flex_wrapper .phones .buttons span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1em;
+  margin-right: 15px;
+  color: #0072BB;
+  border-bottom: 1px solid rgba(0, 114, 187, 0.3);
+  text-decoration: none;
+  cursor: pointer;
+}
+.flex_wrapper .phones .buttons span:hover,
+.flex_wrapper .phones .buttons span:active {
+  color: #23235C;
+}
+.flex_wrapper .phones .buttons span:nth-child(3) {
+  margin-right: 0;
+}
+.flex_wrapper .phones .buttons .active {
+  text-align: center;
+  color: #FFF;
+  background-color: #0072BB;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 4px 4px 3px;
+}
+.flex_wrapper .phones .buttons .active:hover,
+.flex_wrapper .phones .buttons .active:active {
+  color: #fff;
+}
+.flex_wrapper .phones .phones-item {
+  display: none;
+}
+.flex_wrapper .phones .phones-item--visible {
+  display: block;
+}
+.flex_wrapper .phones .col_grodno,
+.flex_wrapper .phones .col_lida {
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .flex_wrapper .phones .col_grodno,
+  .flex_wrapper .phones .col_lida {
+    text-align: left;
+  }
+}

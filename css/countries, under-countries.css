@@ -1,0 +1,155 @@
+.countries > div {
+  padding-top: 20px;
+  -webkit-columns: 8 100px;
+  -moz-columns: 8 100px;
+  columns: 8 100px;
+  column-gap: 20px;
+}
+.countries img {
+  padding-right: 1px;
+}
+.countries a {
+  vertical-align: middle;
+}
+.countries .item {
+  margin-bottom: 5px;
+}
+.countries--extra {
+  display: none;
+  padding-top: 0;
+}
+.links_under_countries {
+  padding-top: 20px;
+}
+.links_under_countries span {
+  display: inline-block;
+}
+@media (max-width: 450px) {
+  .links_under_countries span {
+    margin-bottom: 10px;
+  }
+}
+.links_under_countries a {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.links_under_countries a:hover,
+.links_under_countries a:active,
+.links_under_countries a:focus {
+  color: #ccc;
+  border-color: #ccc;
+}
+.links_under_countries .item1 a {
+  color: #ff5462;
+  border-color: #ff5462;
+}
+.links_under_countries .item2 a {
+  color: #d627d6;
+  border-color: #d627d6;
+}
+.links_under_countries .item3 a {
+  color: #2754c4;
+  border-color: #2754c4;
+}
+.links_under_countries .item4 a {
+  color: #1db828;
+  border-color: #1db828;
+}
+.links_under_countries .item5 a {
+  color: #c240c2;
+  border-color: #c240c2;
+}
+.check_all_countries {
+  text-align: right;
+  padding-top: 5px;
+  margin-bottom: 50px;
+  line-height: 0;
+  font-size: 0;
+}
+@media (max-width: 1199px) {
+  .check_all_countries {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+.check_all_countries span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.check_all_countries span span {
+  border-bottom: 1px #b2d4ea dotted;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1.8em;
+  color: #0072BB;
+  cursor: pointer;
+}
+.check_all_countries::after {
+  content: "";
+  display: inline-block;
+  background: url(/image/arrowdown.png);
+  width: 21px;
+  height: 10px;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -4px;
+}
+@media (max-width: 1199px) {
+  .check_all_countries::after {
+    margin-top: 2px;
+  }
+}
+.links-under-countries-and-choose-tour-wrapper {
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .links-under-countries-and-choose-tour-wrapper {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+  }
+}
+.links-under-countries-and-choose-tour-wrapper .links_under_countries {
+  padding-top: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+@media (max-width: 1199px) {
+  .links-under-countries-and-choose-tour-wrapper .links_under_countries {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+  }
+}
+@media (max-width: 767px) {
+  .links-under-countries-and-choose-tour-wrapper .links_under_countries {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .links-under-countries-and-choose-tour-wrapper .links_under_countries {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+.links-under-countries-and-choose-tour-wrapper .links_under_countries span {
+  display: block;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}

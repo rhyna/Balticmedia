@@ -1,0 +1,37 @@
+@import "http://webfonts.ru/import/ptsans.css";
+@import "http://webfonts.ru/import/rex.css";
+@import "header";
+@import "left-col, right-col";
+@import "countries, under-countries";
+@import "slider, choose-tour";
+@import "left-sidebar, previews";
+@import "main-text";
+@import "footer";
+
+*{
+    position: relative;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+body{
+    font-family: 'Rex';
+    font-family: 'PT Sans';
+    overflow-y: scroll;
+}
+
+a{
+    color: #0072BB;
+    border-bottom: 1px solid rgba(0,114,187,0.3);
+    text-decoration: none;
+    cursor: pointer;
+    &:hover, &:active, &:focus{
+        color: #23235C;
+        border-color: rgba(35,35,92,0.3);
+        text-decoration: none;
+    }
+}
+

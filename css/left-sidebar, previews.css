@@ -1,0 +1,178 @@
+.tours_and_previews_wrapper {
+  line-height: 0;
+  font-size: 0;
+  padding-bottom: 20px;
+}
+.left_sidebar {
+  display: inline-block;
+}
+@media (max-width: 1199px) {
+  .left_sidebar {
+    margin-top: 30px;
+  }
+}
+.sidebar_wrapper {
+  padding-right: 18px;
+  border-right: 1px solid #d7d7d7;
+}
+@media (max-width: 991px) {
+  .sidebar_wrapper {
+    border-right: 0;
+    padding-right: 0;
+  }
+}
+.sidebar_wrapper .best_aviatours {
+  text-align: center;
+  font-size: 16px;
+  border-left: 1px solid #00B3DE;
+  border-right: 1px solid #00B3DE;
+  border-bottom: 5px solid #00B3DE;
+}
+.sidebar_wrapper .best_aviatours .header {
+  background: #00B3DE;
+  padding: 10px;
+  font-family: "Rex";
+  color: #FFF;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.15em;
+}
+.sidebar_wrapper .best_aviatours .item {
+  text-align: left;
+  padding: 10px;
+  padding-bottom: 0;
+}
+.sidebar_wrapper .best_aviatours .item .price {
+  color: #D8A600;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.sidebar_wrapper .best_aviatours .item:last-child .price {
+  border-bottom: none;
+}
+.sidebar_wrapper .notes_plate {
+  padding-top: 20px;
+}
+.sidebar_wrapper .notes_plate span {
+  font-size: 12px;
+  font-style: italic;
+  color: #999;
+  padding: 10px;
+  border: 2px solid #ccc;
+  display: block;
+  line-height: 2em;
+}
+.countries_previews {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 0;
+  font-size: 0;
+}
+@media (max-width: 1199px) {
+  .countries_previews {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .countries_previews {
+    width: 100%;
+  }
+}
+.countries_previews .item {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 50%;
+}
+@media (max-width: 1199px) {
+  .countries_previews .item {
+    padding-left: 0;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+.countries_previews .item_content {
+  display: flex;
+}
+@media (max-width: 1199px) {
+  .countries_previews .item_content {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.countries_previews .item_content a {
+  border: none;
+}
+.countries_previews .item_content a:hover,
+.countries_previews .item_content a:active,
+.countries_previews .item_content a:focus {
+  border: none;
+}
+.countries_previews .item_content .main_img {
+  padding-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+@media (max-width: 1199px) {
+  .countries_previews .item_content .main_img {
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+}
+.countries_previews .item_content .main_img img {
+  width: 120px;
+}
+@media (max-width: 1199px) {
+  .countries_previews .item_content .main_img img {
+    width: 100%;
+  }
+}
+.countries_previews .item_content .text {
+  display: inline-block;
+}
+@media (max-width: 1199px) {
+  .countries_previews .item_content .text {
+    text-align: center;
+  }
+}
+.countries_previews .item_content .text .micro_title {
+  line-height: 0;
+  font-size: 0;
+  top: -5px;
+  color: #000;
+}
+.countries_previews .item_content .text .micro_title .fav {
+  padding-right: 4px;
+  vertical-align: middle;
+}
+.countries_previews .item_content .text .micro_title .country {
+  font-size: 14px;
+  vertical-align: middle;
+  line-height: 1.7em;
+}
+.countries_previews .item_content .text .micro_title .country:hover,
+.countries_previews .item_content .text .micro_title .country:active,
+.countries_previews .item_content .text .micro_title .country:focus {
+  color: #000;
+}
+.countries_previews .item_content .text .title {
+  font-size: 24px;
+  line-height: 1em;
+  font-family: 'Rex';
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.countries_previews .item_content .text .descr {
+  font-size: 12px;
+  line-height: 1.3em;
+  color: #000;
+}
+.countries_previews .item_content .text .descr:hover,
+.countries_previews .item_content .text .descr:active,
+.countries_previews .item_content .text .descr:focus {
+  color: #000;
+}
