@@ -702,7 +702,7 @@ header {
 .check_all_countries::after {
   content: "";
   display: inline-block;
-  background: url(/image/arrowdown.png);
+  background: url(../image/arrowdown.png);
   width: 21px;
   height: 10px;
   vertical-align: middle;
@@ -813,7 +813,7 @@ header {
   border: 2px solid #0072BB;
   height: 200px;
   width: 260px;
-  background-image: url(/image/online.png);
+  background-image: url(../image/online.png);
   background-color: #333333;
   background-repeat: no-repeat;
   background-position: center;

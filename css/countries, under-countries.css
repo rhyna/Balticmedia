@@ -87,7 +87,7 @@
 .check_all_countries::after {
   content: "";
   display: inline-block;
-  background: url(/image/arrowdown.png);
+  background: url(../image/arrowdown.png);
   width: 21px;
   height: 10px;
   vertical-align: middle;
