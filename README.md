@@ -1,2 +1,2 @@
 # Balticmedia
-Оригинал: balticmedia.by
+Original: balticmedia.by
